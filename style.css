@@ -1,0 +1,229 @@
+body
+{
+	text-align: center;
+	background-color:	#c7fcec;
+}
+
+#game_field
+{
+	margin: auto;
+	width: 762px;
+	height: 685px;
+	background-image:	url(images/back2.jpg);
+}
+
+#sea
+{
+	width: 672px;
+	height: 488px;
+	border: 0px;
+	position: relative;
+	left:	44px;
+	top:	164px;
+}
+
+#text
+{
+	color: white;
+	font: 20px sans-serif;
+	float:	left;
+	clear: right;
+	margin-left: 40px;
+}
+
+#add-diver
+{
+	float:	right;
+	margin-top:	15px;
+	margin-right:	25px;
+}
+
+#add-diver-hover
+{
+	float:	right;
+	margin-top:	15px;
+	margin-right:	25px;
+	display: none;
+}
+
+#add:hover #add-diver
+{
+	display:	none
+}
+
+#add:hover #add-diver-hover
+{
+	display:	inline;
+}
+
+#delete-diver
+{
+	float:	right;
+	margin-top:	15px;
+	margin-right:	25px;	
+}
+
+#delete-diver-hover
+{
+	float:	right;
+	margin-top:	15px;
+	margin-right:	25px;
+	display: none;
+}
+
+#delete:hover #delete-diver
+{
+	display:	none
+}
+
+#delete:hover #delete-diver-hover
+{
+	display:inline;
+}
+
+#link_to_port
+{
+	position: absolute;
+	left: 1065px;
+	top:	30px;
+}
+
+#link_to_port a
+{
+	text-decoration: none;
+}
+
+#link_to_port a:hover
+{
+	color: #004e96;
+}
+
+#compressor
+{
+	width: 150px;
+	height: 60px;
+	border: 2px solid #004e96;
+	position: absolute;
+	left: 1065px;
+	top:	70px;
+	text-align: center;
+	color: #004e96;
+}
+
+#scale
+{
+	border: 1px solid #003399;
+	width: 10px;
+	height: 100px;
+	position: absolute;
+	right: 160px;
+	top: -100px;
+	visibility: hidden;
+}
+
+#scale div
+{
+	width: 10px;
+	height: 5px;
+	float: left;
+}
+
+#rules
+{
+	width: 250px;
+	height: 180px;
+	border: 0px;
+	position: absolute;
+	left: 1065px;
+	top:	140px;
+	text-align: left;
+	color: #004e96;
+	margin-left: 5px;
+	float: right;
+}
+
+#desc
+{
+	width: 280px;
+	height: 300px;
+	border: 1px solid #004e96;
+	position: absolute;
+	left: 1065px;
+	top:	330px;
+	color: #004e96;
+	visibility: hidden;
+	float: right;
+}
+
+#desc h3
+{
+	height: 20px;
+	border-bottom: 1px solid #004e96;
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+
+#tf-star1, #tf-star2, #tf-star3, #tf-star4, #tf-star5, #tf-star6, #tf-star7, #tf-star8, #tf-star9, #tf-star10
+{
+	position: absolute;
+	z-index: 10;
+}
+
+img.img1
+{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: -73px;
+	right: 85px;
+}
+
+img.img2
+{
+	height: 73px;
+	width: 46px;
+	position: absolute;
+	top: -40px;
+	right: 70px;
+	visibility: hidden;
+}
+
+img.img3
+{
+	height: 63px;
+	width: 66px;
+	position: absolute;
+	top: 390px;
+	right: 70px;
+	visibility: hidden;
+}
+
+img.img4
+{
+	height: 63px;
+	width: 66px;
+	position: absolute;
+	top: 390px;
+	right: 672px;
+	visibility: hidden;
+}
+
+img.cloud
+{
+	height: 65px;
+	width: 121px;
+	position: absolute;
+	top: 242px;
+	right: 95px;
+	visibility: hidden;
+}
+
+img.stars
+{
+	height: 38px;
+	width: 70px;
+	position: absolute;
+	top: -77px;
+	right: 14px;
+	visibility: hidden;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>GAME</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+        <meta name="description" content="Анимация, игра на чистом javascript." />
+	<meta name="keywords" content="анимация, javascript" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<script language="javascript" src="star.js"></script>
+	<script language="javascript" src="diver.js"></script>
+	<script language="javascript" src="onload.js"></script>
+</head>
+<body>	
+		<div id = "all_stars"></div>
+		<div id = "game_field">
+			<p id = "text">Помоги Topface собрать оценки</p>
+			<p id = "add"><img id = "add-diver" src = "images/add-diver.png" />
+			<img id = "add-diver-hover" src = "images/add-diver-hover.png" /></p>
+			<p id = "delete"><img id = "delete-diver" src = "images/delete-diver.png" />
+			<img id = "delete-diver-hover" src = "images/delete-diver-hover.png" /></p>
+			
+			<div id = "sea">			<!-- Это поле, где будут двигаться звездочки и дайверы -->
+				<div id = "scale"></div>
+			</div>
+			<div id = "compressor"></div>
+			<div id = "rules"><h4>Что делать?</h4>
+				- При нажатии на море левой клавишей мыши появится звездочка.<br /><br />
+				- Водолаза можно удалить только, когда он на корабле.<br />
+			</div>
+			<div id = "desc">
+				<h3>ДОСКА ПОЧЕТА</h3>
+			</div>
+		</div>
+</body>
+</html>
